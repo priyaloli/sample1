@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-15T18:23:08 IST" name="Default suite" finished-at="2021-05-15T18:25:20 IST" duration-ms="132180">
+    <groups>
+      <group name="Regression">
+        <method signature="Main.GiftCard()[pri:3, instance:urbanladder.Main@50313382]" name="GiftCard" class="urbanladder.Main"/>
+        <method signature="Main.chair()[pri:4, instance:urbanladder.Main@50313382]" name="chair" class="urbanladder.Main"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Main.book()[pri:1, instance:urbanladder.Main@50313382]" name="book" class="urbanladder.Main"/>
+        <method signature="Main.collection()[pri:2, instance:urbanladder.Main@50313382]" name="collection" class="urbanladder.Main"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-05-15T18:23:08 IST" name="Default test" finished-at="2021-05-15T18:25:20 IST" duration-ms="132180">
+      <class name="urbanladder.Main">
+        <test-method is-config="true" signature="createExtentReport()[pri:0, instance:urbanladder.Main@50313382]" started-at="2021-05-15T18:23:08 IST" name="createExtentReport" finished-at="2021-05-15T18:23:08 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentReport -->
+        <test-method signature="book()[pri:1, instance:urbanladder.Main@50313382]" started-at="2021-05-15T18:23:08 IST" name="book" finished-at="2021-05-15T18:24:30 IST" duration-ms="81647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method signature="collection()[pri:2, instance:urbanladder.Main@50313382]" started-at="2021-05-15T18:24:30 IST" name="collection" finished-at="2021-05-15T18:24:40 IST" duration-ms="10297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collection -->
+        <test-method signature="GiftCard()[pri:3, instance:urbanladder.Main@50313382]" started-at="2021-05-15T18:24:40 IST" name="GiftCard" finished-at="2021-05-15T18:25:03 IST" duration-ms="23073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCard -->
+        <test-method signature="chair()[pri:4, instance:urbanladder.Main@50313382]" started-at="2021-05-15T18:25:03 IST" name="chair" finished-at="2021-05-15T18:25:20 IST" duration-ms="16922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chair -->
+      </class> <!-- urbanladder.Main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

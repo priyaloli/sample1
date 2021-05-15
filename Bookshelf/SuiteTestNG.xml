@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Case Group">
+
+	<test thread-count="1" name="Group Functionality">
+	
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+				<include name="Regression"></include>
+			
+			</run>
+		</groups>
+		
+		<classes>
+		<class name ="book.Bookshelf.mainpro"></class>
+		
+		</classes>
+		
+		</test> <!-- Test -->
+
+</suite> <!-- Suite -->
